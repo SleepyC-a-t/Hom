@@ -45,3 +45,8 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.main_image{
+    position: relative;
+    left: 100%;
+}
