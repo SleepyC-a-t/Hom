@@ -3,6 +3,25 @@
     padding: 0;
 }
 
+.main_content section {
+    display: none;
+}
+
+.main_content section.active {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 .main_content{
     padding: 5px;
     padding-left: 20px;
