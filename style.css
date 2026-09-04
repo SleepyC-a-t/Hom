@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .main_content section {
@@ -25,7 +26,10 @@
 .main_content{
     padding: 5px;
     padding-left: 20px;
-    max-width: 1000px;
+    min-height: 65dvh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
 }
 
 .base{
@@ -38,6 +42,8 @@
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
+    min-height: 10dvh;
+    
 }
 
 .nav_content{
@@ -49,4 +55,21 @@
 .main_image{
     position: relative;
     
+}
+
+.base{
+    min-height: 10dvh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background: gray;
+    padding: 3px, 3px;
+    border-radius: 5px;
+    transition: .15sec;
+}
+
+a:hover{
+    background: lightgray;
 }
